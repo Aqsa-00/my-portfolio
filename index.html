@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">
+                <a href="#home">Portfolio.</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button id="theme-toggle" aria-lable="Toggle Dark Mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="hamburger" aria-label="Menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <main>
+        <section id="home" class="hero">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <h1>Hi I'm <span class="highlight"> Aqsa </span></h1>
+                    <h2>Front-End Web developer</h2>
+                    <p class="bio"> I'm a passionate developer focused on creating clean, responsive, and user-friendly
+                        web
+                        experiences. I love learning new technologies and bringing ideas to life through code.</p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">View Projects</a>
+                        <a href="mailto:aqsa19400@gmail.com" class="btn btn-secondary">Contact Me</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-user"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2 class="section-title"> My Skills </h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <i class="fa-brands fa-html5 skill-icon" style="color: #e34f26;"></i>
+                        <h3>Html5</h3>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fa-brands fa-css3-alt skill-icon" style="color: #1572b6;"></i>
+                        <h3>CSS3</h3>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fa-brands fa-js skill-icon" style="color: #f7df1e;"></i>
+                        <h3>JavaScript</h3>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fa-solid fa-mobile-screen-button skill-icon" style="color: #4caf50;"></i>
+                        <h3>Responsive Design</h3>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fa-brands fa-github skill-icon"
+                            style="color: #fff; background-color: #333; border-radius: 50%;"></i>
+                        <h3>Git/GitHub</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Project Section -->
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="projects-grid">
+                    <!-- Project Card 1 -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/project1.jpeg" alt="E-commerce">
+                        </div>
+                        <div class="project-info">
+                            <h3>E-commerce Layout</h3>
+                            <p>A responsive front-end layout for an online store using Grid and Flexbox.</p>
+                            <a href="https://github.com/Aqsa-00/E-commerce-website" class="btn btn-outline" target="_blank" rel="noopener noreferrer">GitHub Code</a>
+                        </div>
+                    </div>
+
+                    <!-- Project Card 2 -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/project2.jpeg" alt="E-commerce">
+                        </div>
+                        <div class="project-info">
+                            <h3>Food Website</h3>
+                            <p>Responsive food delivery UI with hero, menu, and clean navigation using Flexbox and Grid.
+                            </p>
+                           <a href="https://github.com/Aqsa-00/food-website" class="btn btn-outline" 
+   target="_blank" rel="noopener noreferrer">GitHub Code</a>
+                        </div>
+                    </div>
+
+                    <!-- Project Card 3 -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/project3.jpeg" alt="E-commerce">
+                        </div>
+                        <div class="project-info">
+                            <h3>E-commerce Dashboard UI</h3>
+                            <p>Responsive e-commerce layout with product listings and categories built using CSS Grid.
+                            </p>
+                            <a href="https://github.com/Aqsa-00/Ecommerce-UI" class="btn btn-outline" target="_blank">GitHub Code</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        .<h3>Contact Information</h3>
+                        <p>Feel free to reach out for collaborations or just a friendly hello!</p>
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:aqsa19400@gmail.com">aqsa19400@gmail.com</a>
+                        </div>
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/aqsa-noor-888a27318" aria-label="LinkedIn"><i
+                                    class="fab fa-linkedin"></i></a>
+                            <a href="https://github.com/dashboard" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Simple Contact Form -->
+                    <form class="contact-form"
+                        onsubmit="event.preventDefault(); alert('Form submitted! (Frontend demonstration)')">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" required placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" required placeholder="your.email@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" rows="5" required placeholder="How can I help you?"></textarea>
+                        </div>
+                        <button class="btn btn-primary">Send Message</button>
+
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2026 Aqsa. All rights reserved.</p>
+            <div class="footer-social">
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scroll-top" class="scroll-top" aria-label="Scroll to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+    <script src="script.js"></script>
+</body>
+
+</html>
